@@ -7,10 +7,20 @@ h1 {
     font-size: 30px;
 }
 
-.header {
+.header__content {
     color: #fff;
     margin: 0;
     padding: 5%;
     overflow: hidden;
     background-color: rgb(49, 52, 57);
+}
+
+.header__logo {
+    height: 10%;
+    width: 10%;
+    display: inline;
+}
+
+.header {
+    display: inline;
 }
