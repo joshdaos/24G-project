@@ -1,3 +1,15 @@
 h1 {
-    color:aquamarine
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(71, 158, 215);
+}
+
+h2 {
+    color: #fff;
+    margin: 0;
+    padding: 5%;
+    overflow: hidden;
+    background-color: rgb(49, 52, 57);
 }
