@@ -3,7 +3,7 @@
 - [Project Planning](#project-planning)
   - [Overview](#overview)
   - [Objective](#objective)
-    - [Goals](#goals)
+    - [Instructions](#instructions)
     - [Technologies](#technologies)
 - [Project Delivery](#project-delivery)
   - [Code Showcase](#code-showcase)
@@ -22,7 +22,7 @@
 Build a responsive micro-website that is used to play videos. The intent of this project is for you to demonstrate your ability to build a website design following provided guidelines. Functionality, coding practices, and resources used are up to your best judgement. You will be evaluated on your project submission quality both in code and user experience.
 
 
-#### Goals
+#### Instructions
 
 
 
