@@ -1,12 +1,17 @@
-h1 {
-    color: #fff;
+/****** Nav Bar ******/
+nav {
+   color: #fff;
     margin: 0;
-    padding: 10px;
+    padding: 1.5%;
     overflow: hidden;
-    background-color: #009DDB;
-    font-size: 30px;  
+    background-color: #009DDB;  
 }
 
+h1 {
+    font-size: 20px;  
+}
+
+/****** header ******/
 .header__content {
     color: #fff;
     margin: 0;
@@ -28,6 +33,7 @@ h1 {
     font-size: 20px;
 }
 
+/****** video section ******/
 .video__player {
     margin-left: 5%;
     margin-right: 5%;
@@ -38,16 +44,25 @@ h1 {
     margin-right: 10px;
 }
 
-/* .thumbs__up {
- 
-    
+.view__count {
+    display: inline;
+}
+
+.thumbs {
+    position: absolute;
+    right: 100px;
+    display: inline;
+}
+
+.thumbs__up {
+   margin: 3px;
 }
 
 .thumbs__down {
-    
+    margin: 3px;
+}
 
-} */
-
+/****** comment section ******/
 .comment__input {
     padding: 20px;
     width: 50%;
