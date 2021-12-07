@@ -10,33 +10,40 @@
 </head>
 <body>
     <h1>Welcome, <b>Joshua</b></h1>
+
     <div class="header__content">
         <img class="header__logo" src="assets/svg/24g_logo.svg">
-        <h2 class="header">VIDEO PLAYER</h2>
+        <p class="header">VIDEO PLAYER</p>
     </div>
+    
+    <div class="video__player">
+        <div class="video__content">
+            <h2>24G Super Awesome Video</h2>
+            <video>
+                <source src="https://static-email-hosting.s3.amazonaws.com/24G_Test_Project/videos/ces_overview.mp4">
+            </video>
+        </div>
 
-    <h2>24G Super Awesome Video</h2>
-    <video></video>
+        <div class="view__content">
+            <p>300 views</p>
+            <img class="thumbs__up" src="assets/svg/thumbs_up.svg">
+            <img class="thumbs__down" src="assets/svg/thumbs_down.svg">
+        </div>
+        <hr>
 
-    <div class="view__content">
-        <p>300 views</p>
-        <img class="thumbs__up" src="assets/svg/thumbs_up.svg">
-        <img class="thumbs__down" src="assets/svg/thumbs_down.svg">
+        <h4>Comments</h4>
+        <input class="comment__input" placeholder="Type up a sweet comment..."/><br>
+        <button id="top__button" class="comment__button">add comment</button><br>
+        <button id="bottom__button" class="comment__button">add comment</button>
+        <div class="comment__container">
+            <p>comment</p>
+            <p>comment</p>
+            <p>comment</p>
+        </div>
+
+        <footer>
+            <img class="footer__logo" src="assets/svg/powered_by_24g.svg">
+        </footer>
     </div>
-    <hr>
-
-    <h4>Comments</h4>
-    <input class="comment__input" placeholder="Type up a sweet comment..."/><br>
-    <button id="top__button" class="comment__button">add comment</button><br>
-    <button id="bottom__button" class="comment__button">add comment</button>
-    <div class="comment__container">
-        <p>comment</p>
-        <p>comment</p>
-        <p>comment</p>
-    </div>
-
-    <footer>
-        <img class="footer__logo" src="assets/svg/powered_by_24g.svg">
-    </footer>
 </body>
 </html>

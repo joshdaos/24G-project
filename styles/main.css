@@ -1,11 +1,10 @@
 h1 {
     color: #fff;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
-    background-color: rgb(71, 158, 215);
-    font-size: 30px;
-    
+    background-color: #009DDB;
+    font-size: 30px;  
 }
 
 .header__content {
@@ -24,6 +23,19 @@ h1 {
 
 .header {
     display: inline;
+    padding: 10px;
+    margin: 2%;
+    font-size: 20px;
+}
+
+.video__player {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.video__content {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* .thumbs__up {
