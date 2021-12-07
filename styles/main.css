@@ -44,8 +44,13 @@ h1 {
     margin-right: 10px;
 }
 
+.view__content {
+    margin-top: 15px;
+}
+
 .view__count {
     display: inline;
+    font-size: 20px;
 }
 
 .thumbs {
