@@ -63,6 +63,10 @@ h1 {
 }
 
 /****** comment section ******/
+.comment__container {
+    margin-top: 25px;
+}
+
 .comment__input {
     padding: 20px;
     width: 50%;
@@ -84,6 +88,20 @@ h1 {
     background-color: rgb(299,140,27);
     color: #fff;
 }
+
+.comment__name {
+    display: inline;
+    color: #393C3E;
+}
+
+.comment__time {
+    display: inline;
+    color: #D1D1D1;
+}
+
+/* .comment {
+
+} */
 
 .footer__logo {
     width: 10%;
