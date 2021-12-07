@@ -5,6 +5,7 @@ h1 {
     overflow: hidden;
     background-color: rgb(71, 158, 215);
     font-size: 30px;
+    
 }
 
 .header__content {
@@ -34,6 +35,16 @@ h1 {
     
 
 } */
+
+.comment__input {
+    padding: 20px;
+    width: 50%;
+}
+
+.comment__button {
+    padding: 20px;
+    width:20%;
+}
 
 .footer__logo {
     width: 10%;
